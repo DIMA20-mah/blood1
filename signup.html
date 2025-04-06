@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Plus - Sign Up</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+     <!-- Sign Up Form -->
+     <div class="signup-form"> 
+        <h2>Join Us and Save Lives!</h2>
+        <p>Sign up to start donating or managing blood requests.</p>
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" placeholder="Email" required>
+            </div>
+            
+           
+            
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" required>
+                <i class="fa-solid fa-eye-slash eye-icon" onclick="togglePassword('password', this)"></i>
+            </div>
+        
+            <div class="input-group">
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                <i class="fa-solid fa-eye-slash eye-icon" onclick="togglePassword('confirm-password', this)"></i>
+            </div>
+        
+            <div class="input-group">
+                <input type="tel" placeholder="📞 Phone Number" required>
+            </div>
+
+            <div class="terms">
+                <input type="checkbox" required>
+                <p class="single-line-text">I agree to the Terms and Conditions.</p>
+
+                <!-- <label> <a href="#">I agree to the Terms and Conditions</a>.</label> -->
+            </div>
+
+            <button type="submit" > <a href="verification.html"></a>SIGN UP</button>
+        </form>
+
+        <p class="or-continue">or continue with</p>
+        <div class="social-buttons">
+          <button class="google" onclick="window.open('https://www.google.com', '_blank')">
+            <img src="image/googel.jpeg" alt="Google">
+          </button>
+          <button class="facebook" onclick="window.open('https://www.facebook.com', '_blank')">
+            <img src="image/facbook .png" alt="Facebook">  
+          </button>
+          <button class="apple" onclick="window.open('https://www.apple.com', '_blank')">
+            <img src="image/apple-icon-25.png" alt="Apple"> 
+          </button>
+        </div>
+
+        <p>Already have an account? <a href="login.html">Log In.</a></p>
+    </div>
+    <div class="centered-container">
+        <div class="image-container">
+            <img src="image/blood.jpg" alt="Blood Puls">
+        </div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+
+</html>
+

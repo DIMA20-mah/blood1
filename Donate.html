@@ -1,0 +1,236 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONATE </title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+ <link rel="stylesheet" href="footer.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- القائمة الجانبية -->
+        <div class="sidebar">
+            <h2 class="logo"><img src="image/logo.png" ></i> BLOOD PLUS</h2>
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="image/home.png" width="20"></i> Home</a></li>
+                    <li ><a href="Donate.html" class="active"><img src="image/donat.png" width="20"></i> Donate</a></li>
+                    <li><a href="about.html"><img src="image/about us.png" width="20"></i> About us</a></li>
+                    <li ><a href="contact.html"><img src="image/conect.png" width="20"></i> Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="user-info">
+                <img src="image/ahmad.svg" alt="User">
+                <div class="user-details">
+                    <p><strong>Abod</strong></p>
+                    <p class="email">Abdulmotia@gmail.com</p>
+                </div>
+                <span class="arrow">&rsaquo;</span>
+            </div>
+        </div>
+        <main class="content">
+            <div class="topbar">
+                <i class="fa-solid fa-phone"></i> +972 59-453-3213
+                <i class="fa-solid fa-envelope"></i> Info@hotmail.com
+            </div>
+        
+
+    <section class="donation-info">
+        <h2>"Before You Donate: Here's What You Need to Know!"</h2>
+
+        <div class="info-box left">
+            <img src="image/stay.svg" alt="Stay Healthy">
+            <div class="text">
+                <h3>Stay Healthy:</h3>
+                <p>• Ensure you're feeling well on the day of donation.</p>
+            </div>
+        </div>
+
+        <div class="info-box right">
+            <img src="image/hydrate.svg" alt="Hydrate">
+            <div class="text">
+                <h3>Hydrate:</h3>
+                <p>• Drink plenty of water before coming in.</p>
+            </div>
+        </div>
+
+        <div class="info-box left">
+            <img src="image/eat.svg" alt="Eat Well">
+            <div class="text">
+                <h3>Eat Well:</h3>
+                <p>• Have a nutritious meal before donating. Avoid fatty foods.</p>
+            </div>
+        </div>
+
+        <div class="info-box right">
+            <img src="image/rest.svg" alt="Rest Up">
+            <div class="text">
+                <h3>Rest Up:</h3>
+                <p>• Get a good night's sleep before your appointment.</p>
+            </div>
+        </div>
+
+        <div class="info-box left">
+            <img src="image/id.svg" alt="Bring ID">
+            <div class="text">
+                <h3>Bring ID:</h3>
+                <p>• Carry a valid ID for registration.</p>
+            </div>
+        </div>
+
+<div class="donation-container">
+    <div class="toggle-buttons">
+        <button class="active">Donate blood</button>
+        <button class="inactive">Request blood <a href="request.html"></a></button>
+    </div>
+
+    <h2 class="section-title">"Make a Life-Saving Donation Today!"</h2>
+
+    <form class="donation-form">
+        <h3>Donor Information</h3>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+        <!-- <div class="phone-input">
+            <input type="text"  placeholder=" phoneNumber" oninput="updateFlag()">
+             <img id="flag" src="image/Flag_of_Palestine.svg" class="flag-icon" alt="علم الدولة"> 
+        </div> -->
+        <div class="phone-input">
+            <img id="flag" src="image/Flag_of_Palestine.svg" class="flag-icon" alt="علم الدولة">
+            <input type="text" id="phoneNumber" placeholder="Phone Number" oninput="updateFlag()">
+        </div>
+        
+        
+
+        <h3>Blood Type</h3>
+        <div class="blood-type-grid">
+            <label><input type="radio" name="blood" value="A+"><span class="circle"></span> A+</label>
+            <label><input type="radio" name="blood" value="A-"><span class="circle"></span> A-</label>
+            <label><input type="radio" name="blood" value="B+"><span class="circle"></span> B+</label>
+            <label><input type="radio" name="blood" value="B-"><span class="circle"></span> B-</label>
+            <label><input type="radio" name="blood" value="AB+"><span class="circle"></span> AB+</label>
+            <label><input type="radio" name="blood" value="AB-"><span class="circle"></span> AB-</label>
+            <label><input type="radio" name="blood" value="O+"><span class="circle"></span> O+</label>
+            <label><input type="radio" name="blood" value="O-"><span class="circle"></span> O-</label>
+        </div>
+
+        <div class="row">
+            <div>
+                <h3>Location</h3>
+                <input type="text" placeholder="Add Location">
+            </div>
+            <div>
+                <h3>Preferred Date</h3>
+                <input type="date">
+            </div>
+        </div>
+
+        <h3>"Do you suffer from any illnesses?"</h3>
+        <textarea placeholder=""></textarea>
+
+        <button type="submit" class="submit-btn">Submit Donation</button>
+        <p class="help-text">Need Help? <a href="contact.html">Contact Us</a></p>
+    </form>
+</div>
+ <section class="faq-section">
+    <h2>Frequently Ask Questions</h2>
+    <div class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question active">
+                <span>Who can donate blood?</span>
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer show">
+                <p>Anyone aged 18-65, in good health, and weighing at least 50kg can donate blood. Please consult with our medical staff if you have specific health concerns.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>How long does the blood donation process take?</span>
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>The donation process takes about 30-45 minutes, including registration, donation, and recovery time.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>Does donating blood hurt?</span>
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Most donors feel only a slight pinch at the beginning. The donation process is generally painless.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>What should I do before donating blood?</span>
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Drink plenty of water, eat a healthy meal, and get a good night's sleep before donating blood.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>How often can I donate blood?</span>
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>You can donate whole blood every 8 weeks. Platelet donors can donate every 2 weeks.</p>
+            </div>
+        </div>
+    </div>
+ </section> 
+ 
+ <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2><img src="image/logo w.png" > BLOOD PLUS</h2>
+                <p>Blood plus :connecting donors with those in need through technology . Every donation matters!.</p>
+                <a href="#">More about us ⬤</a>
+                <div class="social-icons">
+                    <a href="https://ok.ru" target="_blank"><img src="image/ok.png" alt="OK"></a>
+                    <a href="https://vk.com" target="_blank"><img src="image/vk.png" alt="VK"></a>
+                    <a href=" https://www.facebook.com" target="_blank"><img src="image/fecbook 2.png" alt="Facebook"></a>
+                    <a href="https://telegram.org/a/" target="_blank"><img src="image/telegram .png" alt="Telegram"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="image/instegram.png" alt="Instagram"></a>
+                </div>
+                <p class="copyright">© 2025— Copyright <br> All Rights Reserved</p>
+            </div>
+    
+            <div class="footer-right">
+                <nav>
+                    <a href="#">About</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contacts</a>
+                </nav>
+                <div class="contact-info">
+                    <h3>Contact Us</h3>
+                    <p>+1 (999) 888-77-66</p>
+                    <p>hello@Bloodplus.com</p>
+                </div>
+                <div class="location">
+                    <h3>Location</h3>
+                    <p>483920, Moscow,</p>
+                    <p>Myasnitskaya 22/2/5, Office 4</p>
+                </div>
+                <div class="languages">
+                    <h3>Languages</h3>
+                    <p>En &nbsp; Es &nbsp; Fr &nbsp; De &nbsp; Ru</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

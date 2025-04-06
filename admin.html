@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - BLOOD PLUS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- قسم تسجيل الدخول -->
+        <div class="login-section">
+            <h2>Log in to admin</h2>
+            <p class="subtitle">Welcome back! Please enter your details.</p>
+            <form action="dashboard.html" method="POST">
+                <input type="email" name="email" placeholder="Email" required>
+                <div class="password-field">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <span class="show-password" onclick="togglePassword()"></span>
+                </div>
+                <div class="options">
+                    <label><input type="checkbox" name="remember"> Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="login-btn">LOGIN</button>
+            </form>
+        </div>
+      
+        <!-- قسم الصورة -->
+        <div class="image-section">
+            <img src="image/blood.jpg" alt="Blood Donation Illustration">
+            <h1 class="brand-name"></h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

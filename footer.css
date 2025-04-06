@@ -1,0 +1,248 @@
+footer {
+    width: 100%;  
+    background-color: #800000; 
+    color: white;
+    position: relative;
+  
+    
+}
+
+.footer-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.footer-left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    max-width: 340px;
+    opacity: 0.8;
+}
+
+.footer-left .social-icons {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(30px, 1fr));
+    width: 90px;
+    height: 140p;
+    gap: 10px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+    .social-icons1{
+        flex-direction: row;
+        
+    }
+     .social-icons a {
+        color: white;
+        font-size: 20px;
+        margin-right: 10px;
+        text-decoration: none;
+        gap: 5px;
+    }
+    
+.footer-left .social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.footer-right {
+    text-align:start;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.div-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-info h3, .location h3, .languages h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.contact-info p, .location p, .languages p {
+    font-size: 16px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-left, .footer-right {
+        text-align: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+
+    .div-details {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.footer-left p{
+    font-size: 13px;
+    color: rgb(214, 214, 214);
+}
+.footer-left, .footer-right {
+    width: 48%;
+}
+
+.footer-left h2 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.footer-left h2 img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-left p {
+    margin: 15px 0;
+}
+
+.footer-left a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.copyright {  
+ font-family: Montserrat;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+text-align:end;
+}
+
+.footer-links{
+    width: 417px;
+height: 28px;
+gap: 41px;
+margin-bottom: 10px;
+
+}
+
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer .contact-info{
+    padding-top: unset;
+
+    
+}
+
+.div-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-info h3, .location h3, .languages h3{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    letter-spacing: 0%;
+   color: rgb(246, 246, 246);
+   background-color:#81010196;
+
+}
+
+.contact-info p, .location p, .languages p{
+    font-family: Montserrat;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0%;
+color: rgb(198, 195, 195);
+
+}
+
+
+
+
+.footer-right nav {
+    display: flex;
+    gap: 15px;
+} 
+
+ .footer-right nav a {
+    color: rgb(199, 192, 192);
+    text-decoration: none;
+    font-weight: bold;
+    gap: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    justify-content: left;
+
+    
+}
+.contact-info, .location {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    color: rgb(91, 0, 0);
+}
+.languages p {
+    margin-top: 5px;
+    font-weight: bold;
+    flex-direction: row;
+
+}  
